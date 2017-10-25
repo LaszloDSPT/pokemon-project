@@ -1,0 +1,20 @@
+
+@media only screen and (max-width:800px) {
+.description{
+  color: red;
+  font-size: 25%;
+  border: solid;
+  background-color: #00CCCB;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.menu {
+  font-size: 10%; /* adapté à la taille d'un smartphone*/
+  text-align: left;
+  margin-top: -20%;
+}
+.menu a:hover{
+  background-color: #C0C0C0; /* argent pour eviter d'abimer les yeux de la personne si elle le regarde dans le noir:
+   je sais , je suis trop gentil , je m'inquiète de la santé des utilisateurs */
+}
+}

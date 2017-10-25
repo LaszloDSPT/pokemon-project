@@ -1,0 +1,38 @@
+/* CSS pour le menu deroulant de index.html*/
+/* sert à quelque chose , déjà il est beau et puis ça permet à une tierce personne de voir le menu , ça va lui donner envie d'aller sur le site #gloire */
+.nav {
+    margin: 0;
+    padding: 0;
+}
+.nav a {
+    display: block;
+    color: #C0C0C0; /* argent */
+    background: #FFFFFF; /* blanc */
+    text-decoration: none;
+}
+.nav a:focus,.nav a:hover {
+    color: #000000; /* noir */
+    background: #C0C0C0; /* argent */
+    /*text-decoration: underline; -> on enlève ça , ça sert à rien à l'impression*/
+}
+.nav-item {
+    text-align: center;
+    position: relative;
+    display: inline; /* le mettre en ligne*/
+    font-size: 250%;
+}
+.sub-nav { /* je le garde où dans l'hypothèse où la personne imprime avec le menu déroulé */
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 2em;
+    white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
+    background: 	#FFFFFF; /* blanc */
+    margin-top: -2px;
+}
+.nav-item:hover .sub-nav {
+    display: block;
+}
+li {
+  list-style-type: none;
+}

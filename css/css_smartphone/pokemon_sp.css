@@ -1,0 +1,12 @@
+/* CSS  pour les class informations et ecolution d'un pokemon ( exemple: aligatueure)*/
+@media only screen and (max-width:800px) {
+.informations{
+  float: left;/* ppour eviter de trop scroller*/
+  border: solid;
+  border-radius: 50%;
+}
+.evolution {
+  border: solid;
+  background-color: #FF8C00; /* orange*/
+}
+}

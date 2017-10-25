@@ -1,0 +1,26 @@
+/* CSS pour l'affichage de l'equipe */
+.pokemon:nth-child(2n){
+  float : right;
+  margin-right: 25%;
+}
+.pokemon:nth-child(2n+1){
+  float : left;
+  margin-left: 25%;
+  width: 35%;
+}
+.menu {
+  margin-top: -2%;
+}
+.menu a{
+  display: inline;
+  font-size: 200%;
+  color: blue;
+  padding: 3%;
+  margin-left: 5%;
+
+
+}
+.menu a:hover{
+  color: red;
+  text-align: center;
+}

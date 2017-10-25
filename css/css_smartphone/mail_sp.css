@@ -1,0 +1,32 @@
+@media only screen and (max-width:800px) {
+#formulaire{
+    float: left; /* pour eviter de trop scroller*/
+}
+
+input:focus{
+  outline: solid 3px #006400; /* vert */
+  outline-offset: 2px;
+}
+input{
+  border: solid 1px #808080; /* gris*/
+  width: 200px;
+}
+label,input{
+  display: inline-block;
+}
+label{
+  width: 50px; /* adapté à la talle d'un smartphone */
+  float: left; /* pour eviter de trop scroller*/
+  margin-right: 10px;
+}
+input[type=submit]{
+  width: 25px; /* adapté à la talle d'un smartphone*/
+}
+
+.menu {
+  float : left; /* eviter de trop scroller */
+  display: inline;
+  margin-top: auto;
+}
+
+}

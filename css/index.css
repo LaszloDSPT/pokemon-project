@@ -1,0 +1,25 @@
+#video{
+  padding-left: 2%;
+}
+#mew{
+  margin-left: -75%;
+}
+#mewtwo{
+  margin-left: 88%;
+  margin-top: -7%;
+
+}
+.perso {
+  text-align: center;;
+  font-size: 150%;
+  margin-top: 10%;
+}
+.citation {
+  text-align: right;
+  font-size: 130%;
+  color: red;
+}
+#copyright{
+  bottom :100%;
+  font-size: 150%;
+}

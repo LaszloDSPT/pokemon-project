@@ -1,0 +1,16 @@
+.description{
+  color: #000000; /* noir */
+  font-size: 50%; /* plus grand pour l'impression */
+  border: solid;
+  background-color: #C0C0C0; /* argent */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*.menu {
+  font-size: 40%; /* plus grand pour l'impression
+  text-align: left;
+  margin-top: -20%;
+} sert à rien */
+/*.menu a:hover{
+  background-color: #000000;  /* noir
+} sert à rien */

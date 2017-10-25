@@ -1,0 +1,26 @@
+#carte img{
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 1%;
+}
+h2{
+  text-align: center;
+  color: blue;
+  font-size: 100%;
+  font-style: italic;
+}
+.champ img{
+  width: 100px;
+  height: 200px;
+}
+.champ a:hover{
+  background-color: #00FFFF; /* aqua */
+}
+.menu {
+  font-size: 20%;
+  text-align: left;
+  margin-top: -210%;
+}
+.menu a:hover{
+  background-color: red;
+}

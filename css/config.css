@@ -1,0 +1,12 @@
+/* Css pour tous les body et h1*/
+body{
+  background-color: #E6E6FA;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: blue;
+  font-size: 500%;
+  font-style: italic;
+  padding-top: -10%;
+  }

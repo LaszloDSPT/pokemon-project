@@ -1,0 +1,28 @@
+/* CSS pour l'affichage de l'equipe */
+@media only screen and (max-width:800px) {
+.pokemon:nth-child(2n){
+  float : left; /* evite de scroller si besoin */
+  margin-right: 25%;
+}
+.pokemon:nth-child(2n+1){
+  float : left;
+  margin-left: 25%;
+  width: 35%;
+}
+.menu {
+  margin-top: -2%; /* a faire varier*/
+}
+.menu a{
+  display: inline;
+  font-size: 80%; /* adapté à la taille de l'écran*/
+  color: blue;
+  padding: 3%;
+  margin-left: 5%;/* à faire varier*/
+
+
+}
+.menu a:hover{
+  color: red;
+  text-align: center;
+}
+}

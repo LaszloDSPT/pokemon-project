@@ -1,0 +1,16 @@
+.description{
+  color: red;
+  font-size: 25%;
+  border: solid;
+  background-color: #00CCCB;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.menu {
+  font-size: 20%;
+  text-align: left;
+  margin-top: -20%;
+}
+.menu a:hover{
+  background-color: red;
+}

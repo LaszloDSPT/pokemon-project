@@ -1,0 +1,31 @@
+.pokemon{
+  border: solid;
+  border-color: #C0C0C0;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+/* .pokemon a:hover{
+  background-color: #C0C0C0; /* argent
+} sert à rien */
+/* .menu {
+  margin-top: -205%;
+} sert à rien */
+
+/* sert à rien .menu a{
+  display: inline;
+  font-size: 200%;
+  color: #FFFFFF; /* blanc
+  padding: 5%;
+  margin-left: 5%;
+
+
+}*/
+/*.menu a:hover{
+  color: #C0C0C0; /* argent
+  text-align: center;
+} sert à rien */

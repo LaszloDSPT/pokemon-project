@@ -1,0 +1,27 @@
+@media only screen and (max-width:800px) {
+#video{
+  padding-left: 2%;
+}
+#mew{
+  margin-left: -75%;
+}
+#mewtwo{
+  margin-left: 88%;
+  margin-top: -7%;
+
+}
+.perso {
+  float : left; /* pour eviter de trop scroller */
+  font-size: 75%; /* adapté à la taille d'un smartphone*/
+  margin-top: 10%;
+}
+.citation {
+  float: left; /* pour eviter de trop scroller*/
+  font-size: 75%; /* adapté à la taille de l'écran */
+  color: red;
+}
+#copyright{
+  bottom :50%; /* pour pas trop scroller*/
+  font-size: 75%; /* adapté à la talle de l'écran */
+}
+}

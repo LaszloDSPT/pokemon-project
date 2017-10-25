@@ -1,0 +1,25 @@
+
+#trailer {
+  padding-bottom: 10%;
+  margin-bottom: 10%;
+}
+ img {
+  width: 8%;
+  height: 8%;
+}
+
+.menu {
+  margin-top: -127%;
+}
+
+.menu a{
+  display: inline;
+  font-size: 200%;
+  color: blue;
+  padding: 3%;
+  margin-left: 5%;
+
+}
+.menu a:hover{
+  color: red;
+}

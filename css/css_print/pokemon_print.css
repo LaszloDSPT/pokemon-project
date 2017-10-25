@@ -1,0 +1,14 @@
+/* CSS  pour les class informations et ecolution d'un pokemon ( exemple: aligatueure)*/
+.informations{
+  text-align: center;
+  border: solid;
+  border-radius: 50%;
+}
+.evolution {
+  border: solid;
+  background-color: #C0C0C0; /* argent*/
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}

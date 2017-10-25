@@ -1,0 +1,10 @@
+/* CSS  pour les class informations et ecolution d'un pokemon ( exemple: aligatueure)*/
+.informations{
+  text-align: center;
+  border: solid;
+  border-radius: 50%;
+}
+.evolution {
+  border: solid;
+  background-color: #FF8C00; /* orange*/
+}

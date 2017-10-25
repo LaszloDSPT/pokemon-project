@@ -1,0 +1,23 @@
+
+.description h2{
+  font-size: 500%;
+  color: #000000; /* noir */
+}
+.description img{
+  width: 8%;
+  height: 8%;
+  border: solid;
+  border-color: red;
+  background-color: #C0C0C0; /* argent*/
+  padding: 2%;
+  border-radius: 10%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+.description p{
+  border: solid;
+  border-radius: 10%;
+  font-size: 150%;
+}

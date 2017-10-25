@@ -1,0 +1,41 @@
+@media only screen and (max-width:800px) {
+img {
+  width: 50%;
+  height: 50%;
+  /* width et height adaptée à la taille d'un smartphone*/
+}
+#menuRE:nth-child(2n){
+  float : right;
+  margin-right: 25%;
+  margin-top: 15%;
+  width: 10%;
+}
+#menuRE:nth-child(2n+1){
+  float : left;
+  margin-left: 25%;
+  width: 10%;
+}
+#menuRE figure{
+  display: inline;
+  float : left; /*ça évitera de scroller si besoin*/
+
+}
+a:hover{
+  color: red;
+}
+
+.menu a{
+  display: inline;
+  font-size: 100%; /* adapté à la taille d'un smartphone*/
+  color: blue;
+  padding: 2%;
+  margin-left: -3%;
+
+
+}
+.menu{
+  float : left; /*pour eviter de scroller si besoin */
+  font-size: 120%;
+  margin-top: -2%;
+}
+}

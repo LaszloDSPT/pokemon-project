@@ -1,0 +1,30 @@
+#carte img{
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 1%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+h2{
+  text-align: center;
+  color: #000000; /* noir */
+  font-size: 100%;
+  font-style: italic;
+}
+/*.champ img{
+  width: 100px;
+  height: 200px;
+} sert à rien */
+/*.champ a:hover{
+  background-color: #C0C0C0; /* argent
+} sert à rien */
+/*.menu {
+  font-size: 20%;
+  text-align: left;
+  margin-top: -210%;
+} sert à rien */
+/*.menu a:hover{
+  background-color: #808080; /* gris
+} sert à rien*/

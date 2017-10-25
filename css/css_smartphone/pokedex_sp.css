@@ -1,0 +1,29 @@
+@media only screen and (max-width:800px) {
+.pokemon{
+  border: solid;
+  border-color: red;
+  float: left; /* pour eviter de trop scrolle */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.pokemon a:hover{
+  background-color: #00FFFF; /* aqua */
+}
+.menu {
+  margin-top: -202%; /* a changer*/
+}
+
+.menu a{
+  display: inline;
+  font-size: 100%;  /* adapté à la taille d'un smartphone */
+  color: blue;
+  padding: 5%;
+  margin-left: 5%;
+
+
+}
+.menu a:hover{
+  color: red;
+  text-align: center;
+}
+}

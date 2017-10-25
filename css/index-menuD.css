@@ -1,0 +1,38 @@
+/* CSS pour le menu deroulant de index.html*/
+
+.nav {
+    margin: 0;
+    padding: 0;
+}
+.nav a {
+    display: block;
+    color: blue;
+    background: white;
+    text-decoration: none;
+}
+.nav a:focus,.nav a:hover {
+    color: black;
+    background: #ffc;
+    text-decoration: underline;
+}
+.nav-item {
+    text-align: center;
+    position: relative;
+    display: inline; /* le mettre en ligne*/
+    font-size: 250%;
+}
+.sub-nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 2em;
+    white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
+    background: 	#FFFFFF; /* blanc */
+    margin-top: -2px;
+}
+.nav-item:hover .sub-nav {
+    display: block;
+}
+li {
+  list-style-type: none;
+}

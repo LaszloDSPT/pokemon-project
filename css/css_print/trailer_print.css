@@ -1,0 +1,33 @@
+
+#trailer {
+  padding-bottom: 10%;
+  margin-bottom: 10%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+ img {
+  width: 8%;
+  height: 8%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+
+/*.menu {
+  margin-top: -127%;
+} sert à rien */
+
+/* .menu a{
+  display: inline;
+  font-size: 200%;
+  color: blue;
+  padding: 3%;
+  margin-left: 5%;
+
+} sert à rien */
+/*.menu a:hover{
+  color: #C0C0C0; /* argent
+} sert à rien */

@@ -1,0 +1,47 @@
+img {
+  width: 500%;
+  height: 500%;
+  /* image plus grande*/
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+#menuRE:nth-child(2n){
+  float : right;
+  margin-right: 25%;
+  margin-top: 15%;
+  width: 10%;
+}
+#menuRE:nth-child(2n+1){
+  float : left;
+  margin-left: 25%;
+  width: 10%;
+}
+#menuRE figure{
+  display: inline;
+  float : right;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* noir et blanc*/
+
+}
+/*a:hover{
+  color: #808080; /* gris
+} sert à rien */
+
+/*.menu a{
+  display: inline;
+  font-size: 200%;
+  color: #000000;  noir
+  padding: 2%;
+  margin-left: -3%;
+
+
+} sert à rien */
+/*.menu{
+  text-align: left;
+  font-size: 120%;
+  margin-top: -2%;
+} /* sert à rien */

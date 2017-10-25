@@ -1,0 +1,28 @@
+.pokemon{
+  border: solid;
+  border-color: red;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.pokemon a:hover{
+  background-color: #00FFFF; /* aqua */
+}
+.menu {
+  margin-top: -202%;
+}
+
+.menu a{
+  display: inline;
+  font-size: 200%;
+  color: blue;
+  padding: 5%;
+  margin-left: 5%;
+
+
+}
+.menu a:hover{
+  color: red;
+  text-align: center;
+}

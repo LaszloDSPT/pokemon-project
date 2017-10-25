@@ -1,0 +1,11 @@
+/* Css pour tous les body et h1 en mode impression*/
+body{
+  background-color: #FFFFFF; /* blanc*/
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: #000000; /* noir*/
+  font-size: 500%;
+  font-style: italic;
+  }

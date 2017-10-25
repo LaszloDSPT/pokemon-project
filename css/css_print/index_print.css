@@ -1,0 +1,39 @@
+/* CSS pour l'impression de 'index.html */
+#video{
+  padding-left: 30%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+#mew{
+  margin-left: 10%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+}
+#mewtwo{
+  margin-left: 88%;
+  margin-top: -7%;
+  -webkit-filter: grayscale(100%);
+ -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+         /* image en noir et blanc*/
+
+}
+.perso {
+  text-align: center;
+  font-size: 150%;
+}
+.citation {
+  text-align: right;
+  font-size: 130%;
+  color: red;
+}
+#copyright{
+  bottom :100%;
+  font-size: 250%; /* pour bien le voir*/
+  border: solid; /* pour attirer l'attention de la prersonne*/
+  font-weight: bold; /* pour bien insister et pour lui dire que si elle ne respecte pas le copyright, elle va aavoir des problèmes */
+}

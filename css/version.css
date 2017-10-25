@@ -1,0 +1,19 @@
+
+.description h2{
+  font-size: 500%;
+  color: blue;
+}
+.description img{
+  width: 8%;
+  height: 8%;
+  border: solid;
+  border-color: red;
+  background-color: #FF8C00; /* orange*/
+  padding: 2%;
+  border-radius: 10%;
+}
+.description p{
+  border: solid;
+  border-radius: 10%;
+  font-size: 150%;
+}

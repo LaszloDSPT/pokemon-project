@@ -1,0 +1,39 @@
+img {
+  width: 300%;
+  height: 300%;
+}
+#menuRE:nth-child(2n){
+  float : right;
+  margin-right: 25%;
+  margin-top: 15%;
+  width: 10%;
+
+}
+#menuRE:nth-child(2n+1){
+  float : left;
+  margin-left: 25%;
+  width: 10%;
+}
+#menuRE figure{
+  display: inline;
+  float : right;
+
+
+}
+a:hover{
+  color: red;
+}
+
+.menu a{
+  display: inline;
+  font-size: 200%;
+  color: blue;
+  padding: 2%;
+  margin-left: -3%;
+
+
+}
+.menu{
+  text-align: center;
+  font-size: 120%;
+  margin-top: -2%;

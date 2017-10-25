@@ -1,0 +1,21 @@
+@media only screen and (max-width:800px) {
+.description h2{
+  font-size: 100%; /* adapté à la talle d'un smartphone */
+  color: blue;
+}
+.description img{
+  width: 4%;
+  height: 4%;
+  /* adapté à la taille d'un smartphone */
+  border: solid;
+  border-color: red;
+  background-color: #FF8C00; /* orange*/
+  padding: 2%;
+  border-radius: 10%;
+}
+.description p{
+  border: solid;
+  border-radius: 10%;
+  font-size: 75%; /* adapté à la taille d'un smartphone */
+}
+}
